@@ -15,18 +15,18 @@ public class Helpline extends AppCompatActivity {
     }
     public void callMessage1(View view) {
         Intent startNewActivity = new Intent(getIntent().ACTION_DIAL);
-        startNewActivity.setData(Uri.parse("tel:+919979680729"));
+        startNewActivity.setData(Uri.parse("tel:xxxxxxxxxx"));
         startActivity(startNewActivity);
     }
 
     public void callMessage2(View view) {
         Intent startNewActivity = new Intent(getIntent().ACTION_DIAL);
-        startNewActivity.setData(Uri.parse("tel:+919173757374"));
+        startNewActivity.setData(Uri.parse("tel:xxxxxxxxxxx"));
         startActivity(startNewActivity);
     }
 
     public void mapMessage1(View view) {
-        Intent startNewActivity = new Intent(getIntent().ACTION_VIEW, Uri.parse("google.navigation:q=Navrachana+University+Vadodara"));
+        Intent startNewActivity = new Intent(getIntent().ACTION_VIEW, Uri.parse("google.navigation:qxxxxxxxxxxxxx"));
         startActivity(startNewActivity);
     }
 }
